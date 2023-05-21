@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
-
+/*
 .center {
     display: flex;
     max-width: 1100px;
@@ -12,7 +12,7 @@
     margin: 0 auto;
     flex-wrap: wrap;
 }
-
+*/
 section.main {
     background-image: url('images/bg.svg');
     background-position: center;
@@ -25,6 +25,8 @@ section.main {
 .menu {
     display: flex;
     width: 100%;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .logo-menu {
@@ -88,31 +90,52 @@ section.main {
 
 /* Porque nós */
 
-section.porque-nos {
+.porque-nos {
     background-color: #FBFCFE;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
-section.porque-nos > .center > h2 {
+.porque-nos > h2 {
     font-size: 64px;
     margin: auto;
     margin-top: 100px;
+    text-align: center;
 }
 
-section.porque-nos > .center > p {
+.porque-nos > p {
     font-size: 20px;
     color: #7E92AC;
     margin: auto;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .diferenciais {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    
 }
 
 .box-diferenciais {
     background-color: white;
     margin-left: 20px;
-    box-shadow: 1px 1px 3px black;
-    box-shadow: 0px 20px 40px #2426721C;ffffffffffffffff
+    box-shadow: 0px 20px 40px #2426721C;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px; 
+}
 
+.box-diferenciais p {
+    color: #7E92AC;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .box-diferenciais {
+        width: 100%;
+        margin-left: 0px;
+    }
 }
