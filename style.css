@@ -133,6 +133,43 @@ section.main {
     font-size: 16px;
 }
 
+/* Começar projeto */
+
+.começar-projeto {
+    background-image: url('images/banner.png');
+    padding: 20px 10px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.começar-projeto h2, p {
+    color: white;
+    font-weight: normal;
+}
+
+.começar-projeto h2 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.começar-projeto p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.começar-projeto a {
+    background-color: #FFDD33;
+    padding: 10px 20px;
+    color: #0F3FD3;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     .box-diferenciais {
         width: 100%;
