@@ -152,7 +152,8 @@ section.main {
 .começar-projeto h2 {
     font-size: 64px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
+
 }
 
 .começar-projeto p {
@@ -168,7 +169,27 @@ section.main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    position: relative;
+    left: calc(50% - 110px);
+    top: 50px;
 }
+
+/* Benefícios para você */
+
+.beneficios h2 {
+    font-size: 64px;
+}
+
+.checklist {
+    display: flex;
+    width: 500px;
+
+}
+
+.checklist p {
+    color: #7E92AC;
+}
+
 
 @media screen and (max-width: 768px) {
     .box-diferenciais {
